@@ -13,9 +13,12 @@ items2["key3"] = 3
 print(items2)
 
 # TODO: try to access a nonexistent key
-print(items1["key6"])
+#print(items1["key6"])
 
 # TODO: replace an item
-
+items2["key2"] = "two"
+print(items2)
 
 # TODO: iterate the keys and values in the dictionary
+for key, value in items2.items():
+    print("key: ", key, " value: ", value)
