@@ -2,7 +2,11 @@
 
 
 def countdown(x):
-    return
-
+    if x == 0:
+        print("done!")
+        return
+    else;
+        print(x, "...")
+        countdown(x-1)
 
 countdown(5)
