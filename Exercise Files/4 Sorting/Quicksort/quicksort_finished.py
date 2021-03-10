@@ -4,7 +4,7 @@
 items = [20, 6, 8, 53, 56, 23, 87, 41, 49, 19]
 
 
-def :
+def quickSort(dataset, first, last):
     if first < last:
         # calculate the split point
         pivotIdx = partition(dataset, first, last)
